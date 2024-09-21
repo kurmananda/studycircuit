@@ -9,4 +9,6 @@ body
     font-family: monospace;
 }
 a
-{padding:20px;}
+{
+padding:20px;
+}
