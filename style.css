@@ -10,5 +10,6 @@ body
 }
 .dabs
 {
-    padding: 5px;
+    padding: 2px;
+    padding-left : 0px;
 }
