@@ -21,3 +21,8 @@ body
     background: linear-gradient(133deg, rgba(249, 0, 83, 0.836) 0%, rgb(9, 9, 121) 35%, rgba(64, 67, 255, 0.808) 100%);
     font-family: baskerville;
 }
+.subs
+{
+    border-radius: 1vh;
+    box-shadow: 1vw 1vh 1.8vh 0vh;
+}
