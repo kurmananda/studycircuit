@@ -14,7 +14,7 @@ body
     padding-left : 0px;
 }
 #scr4 {
-    font-family: Copperplate,Copperplate Gothic Light,fantasy;
+    font-family: tud;
     color: blanchedalmond;
     font-size: xx-large;
     background: rgb(249, 0, 85);
@@ -24,4 +24,8 @@ body
 .subs
 {
     border-radius: 1vh;
+}
+@font-face{
+    font-family: tud;
+    src : url(Thunderline-Regular.tff);
 }
