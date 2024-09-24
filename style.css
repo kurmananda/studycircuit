@@ -11,9 +11,13 @@ header
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
+    background : rgb(219 219 255);
+    position : sticky;
+    top : 0;
 }
 body
 {
+    background : rgb(219 219 255);
     font-family: monospace;
 }
 .dabs
