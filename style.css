@@ -2,7 +2,10 @@
     font-family: tud;
     src : url(28.ttf);
 }
-
+@font-face{
+    font-family: bomb;
+    src : url(Bombing.ttf);
+}
 header
 {
     text-align: center;
