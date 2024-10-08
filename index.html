@@ -4,11 +4,28 @@
     <script src="tinda.js"></script>
     <title>Misson End Sem</title>
     </head><body>
+
+        <div id="load">
+            <div class="gear">
+                <img src="https://assets.codepen.io/6093409/gear.svg.png" alt="an illustration of a gear" />
+            </div>
+        </div>
         <header>Misson End Sem
     <br>
     [ECE]
     <hr>
     </header>
+    <a id="ikonn" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="7vh" viewBox="0 -960 960 960" width="30vw" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+    <nav class="sidee">
+        <ul>
+            <li id="close" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="7vh" viewBox="0 -960 960 960" width="30vw" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html"><img src="./icons/home.png" alt="" class="pickle">Home</a></li>
+            <li><a href="weblinks.html"><img src="./icons/link.png" alt="" class="pickle">Imporntant Weblinks</a></li>
+            <li><a href=""><img src="./icons/gallery.png" alt="" class="pickle">Gallery</a></li>
+            <li ><a href="#"><img src="./icons/about.png" alt="" class="pickle">About us</a></li>
+        </ul>
+    </nav>
+    
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,16 +41,6 @@
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     width: 70vw; border: solid; border-radius: 1vh; color: white; border-color: black;">click on some subject...!</H1>
     </div>
-    
-    <a id="ikonn" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="7vh" viewBox="0 -960 960 960" width="30vw" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
-    <nav class="sidee">
-        <ul>
-            <li id="close" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="7vh" viewBox="0 -960 960 960" width="30vw" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href=""><img src="./icons/link.png" alt="" class="pickle">Imporntant Weblinks</a></li>
-            <li><a href=""><img src="./icons/gallery.png" alt="" class="pickle">Gallery</a></li>
-            <li ><a href="#"><img src="./icons/about.png" alt="" class="pickle">About us</a></li>
-        </ul>
-    </nav>
     <section id="secc">
         <div class="subsss" id="calculus">
             <div class="toppp" id="calcu-top" onclick= calcu()>
@@ -280,5 +287,12 @@
         <p></p>
 
     </div>
-
+<script>
+    
+var loader = document.getElementById('load');
+window.addEventListener("load", function(){
+    console.log('erri')
+    loader.style.display = 'none';
+})
+</script>
 </body></html>
