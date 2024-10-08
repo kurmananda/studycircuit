@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="load">
+        <div class="gear">
+            <img src="https://assets.codepen.io/6093409/gear.svg.png" alt="an illustration of a gear" />
+        </div>
+    </div>
     <title>Misson End Sem</title>
     </head><body>
         <header>Misson End Sem
@@ -38,5 +43,14 @@
             height: 100vh;
         }
     </style>
+    
+<script>
+    
+    var loader = document.getElementById('load');
+    window.addEventListener("load", function(){
+        console.log('erri')
+        loader.style.display = 'none';
+    })
+    </script>
 </body>
 </html>
