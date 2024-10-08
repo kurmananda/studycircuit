@@ -8,7 +8,8 @@
 }
 
 
-
+#holo
+{font-size: 2vh;}
 #poto
 {
     width: 10vw;
@@ -281,5 +282,8 @@ nav li{
     font-size: 3vh;
     padding: 0;
 }
+
+#holo
+{font-size: .8vh;}
 } 
   
