@@ -6,6 +6,54 @@
     font-family: bomb;
     src : url(Bombing.ttf);
 }
+
+
+#abtme
+{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#abtimg
+{
+    width: 30vw;
+    height: 30vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+#myne
+{
+    background-color: rgba(0, 0, 0, 0.267);
+    backdrop-filter: blur(10px);
+    width: 40vw;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    padding: 30px;
+}
+#social
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 25vh;
+    background-color: hsla(209, 100%, 77%, 0.315);
+    backdrop-filter: blur(10px);
+    margin: auto;
+    border-radius: 30px;
+}
+#social a img
+{
+    height: 10vh;
+}
+
+
+
 #load
 {
     background: black;
@@ -48,7 +96,13 @@
     width: 5vh;
 }
 #holo
-{font-size: 2vh;}
+{
+    margin: 0;
+    padding: 0;
+    padding-left: 2vw;
+    height: 0vh;
+    font-size: 2vh;
+}
 #poto
 {
     width: 10vw;
@@ -129,7 +183,7 @@ nav a
 }
 body
 {
-    background: url("pencils.jpg");
+    background : url("pencils.jpg");
     background-size: cover;
     background-attachment: fixed;
     font-family: monospace;
@@ -191,6 +245,10 @@ body
     border-radius: 4vh;
     margin-top: 2vh;
 }
+.toppp:hover
+{
+    background-color: rgb(255, 255, 255, 1);
+}
 .pic
 {
     width: 10vh;
@@ -205,6 +263,7 @@ body
     align-items: center;
     text-shadow: 0 0 1vh white;
 }
+
 .matterr
 {
     width: 70vw;
@@ -235,6 +294,16 @@ body
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+#gii
+{
+    height: 30vh;
+    width: auto;
+}
+#ki
+{
+    padding-left: 10vw;
+    width: 70vw;
+}
 /* .dabs
 {
     padding: .5vh;
@@ -246,7 +315,64 @@ body
     border-radius: 1vh;
 } */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
+    
+
+#ki
+{
+    padding-left: 0;
+    width: 90vw;
+}
+#gii
+{
+    width: 30vw;
+    height: auto;
+}
+
+#abtme
+{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#abtimg
+{
+    width: 30vh;
+    height: 30vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+#myne
+{
+    background-color: rgba(0, 0, 0, 0.267);
+    backdrop-filter: blur(10px);
+    width: 80vw;
+    height: 20vh;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    padding: 0;
+}
+#social
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 12vh;
+    background-color: hsla(209, 100%, 77%, 0.315);
+    backdrop-filter: blur(10px);
+    margin: auto;
+    border-radius: 20px;
+}
+#social a img
+{
+    height: 5vh;
+}
     
 .subss
 {
@@ -323,6 +449,7 @@ nav li{
 }
 
 #holo
-{font-size: .8vh;}
+{font-size: .8vh;
+height: 0vh;}
 } 
   
