@@ -129,8 +129,7 @@ nav a
 }
 body
 {
-    background : url("pencils.jpg");
-    background: rgb(0, 0, 0, 0);
+    background: rgb(0, 0, 0, 0.5);
     background-size: cover;
     background-attachment: fixed;
     font-family: monospace;
