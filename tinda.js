@@ -2,19 +2,19 @@ function showSidebar()
 {
     const side = document.querySelector('.sidee')
     side.style.display = "flex"
-    const kit = document.getElementById('ki')
-    kit.style.textAlign = 'left'
     const e = document.getElementById('gii')
     e.src="./ikons/giphy (1).webp"
+    const kit = document.getElementById('ki')
+    kit.style.textAlign = 'left'
 }
 function hideSidebar()
 {
     const side = document.querySelector('.sidee')
     side.style.display = "none"
-    const kit = document.getElementById('ki')
-    kit.style.textAlign = 'right'
     const e = document.getElementById('gii')
     e.src="./ikons/giphy.webp"
+    const kit = document.getElementById('ki')
+    kit.style.textAlign = 'right'
 }
 
 function calcu()
